@@ -1,0 +1,30 @@
+.main-content .container  .choose-date .date-session .date-button.active a {
+    color: rgba(255, 255, 255, 1);
+}
+
+.main-content .container  .choose-date .date-session .date-button.active  {
+    background-color: rgba(67, 208, 0, 1);
+    box-shadow: 0px 8px 20px rgba(67, 208, 0, 0.6);
+}
+
+.main-content .container .time-registraition .time-list .session-time.active a {
+    color: rgb(255, 255, 255);
+}
+
+.main-content .container .time-registraition .time-list .session-time.active {
+    background-color: rgba(67, 208, 0, 1);
+    box-shadow: 0px 8px 20px rgba(67, 208, 0, 0.6);
+}
+
+.cinema-rows .seat.reserved a {
+    color: rgba(204, 218, 244, 1);   
+}
+
+.main-content .container .ticket-registration .cinema .cinema-rows .seat.choisen a {
+    color: rgb(255, 255, 255);
+}
+
+.cinema-rows .seat.free a {
+    color: rgba(89, 87, 219, 1);
+}
+

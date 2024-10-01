@@ -1,0 +1,259 @@
+main {
+    display: flex;
+    margin-top: var(--section-padding);
+}
+
+.main-content {
+    display: flex;
+    justify-content: end;
+}
+
+.main-content .container {
+    margin: 62px 320px 62px 320px;
+    height: auto;
+    width: auto;
+}
+
+.main-content .container .cinema-registration ul {
+    display: flex;
+}
+
+.main-content .container .cinema-registration  {
+    display: flex;
+}
+
+.main-content .nav .cinema-registration .choose-date{
+    display: flex;
+}
+.main-content .cinema-registration .arrows a {
+    display: flex;
+    height: 120px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgba(236, 242, 255, 1);
+}
+
+.main-content .cinema-registration .arrow-right a {
+    margin-left: 30px;
+}
+
+.main-content .container  .choose-date .date-session .date-button {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgba(236, 242, 255, 1);
+    margin-left: 30px;
+}
+
+.main-content .container  .choose-date .date-session .date-button .mounth-num {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(89, 87, 219, 1);
+    padding-bottom: 10px;
+}
+
+.main-content .container  .choose-date .date-session .date-button .week-day{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(89, 87, 219, 1);
+}
+
+.main-content .container .time-registraition .time-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content .container .time-registraition .time-list:nth-child(1) .list-2d:nth-child(1) {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.main-content .container .time-registraition .time-list .border-line  {
+    margin-bottom: 20px;
+}
+
+.main-content .container .time-registraition .time-list .film-category {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(102, 102, 102, 1);
+    margin-top: 20px;
+    margin-right: 83px;
+}
+
+.main-content .container .time-registraition .time-list ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content .container .time-registraition .time-list .session-time {
+    display: flex;
+    height: 60px;
+    width: 190px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(236, 242, 255, 1);
+}
+
+.main-content .container .time-registraition .time-list .session-time a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(89, 87, 219, 1);
+}
+
+.main-content .container .time-registraition .time-list .session-time:not(:first-child) {
+    margin-left: 30px;
+
+}
+
+.main-content .container .hall-registration .cinema-screen:first-child {
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.main-content .container .hall-registration .cinema-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content .container .hall-registration .cinema-screen .screen {
+    position: relative;;
+    width: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    bottom: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: rgba(204, 218, 244, 1);
+}
+
+.main-content .container .hall-registration .row-num{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: rgba(102, 102, 102, 1);
+}
+
+.main-content .container .hall-registration .cinema .cinema-rows {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: rgba(102, 102, 102, 1);
+}
+
+.main-content .container .hall-registration .cinema {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.main-content .container .hall-registration .cinema .cinema-rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-content .container .hall-registration .cinema .cinema-rows.cinema-rows:first-child {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+
+.main-content .container .hall-registration .cinema .cinema-rows .row ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content .container .hall-registration .cinema .cinema-rows .row ul li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.main-content .container .hall-registration .cinema .finely {
+    align-self: center;
+}
+
+.main-content .container .hall-registration .cinema .finely .row-num {
+    display: flex;
+    width: 70px;
+}
+
+.main-content .container .hall-registration .cinema .cinema-rows a {
+    position: relative;
+    left: 37px;
+    bottom: 50px;
+}
+
+.main-content .container .hall-registration .cinema .cinema-rows {
+    width: 1040px;
+}
+
+.main-content .container .hall-registration .cinema .finely .row-num #num {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+.main-content .container .seat-nav {
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 55px;
+    margin-bottom: 60px;
+}
+
+
+.main-content .container .seat-nav .seat-reserved {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #ECF2FF;
+    border-radius: 4px; 
+    margin-right: 12px;
+} 
+
+
+.main-content .container .seat-nav .seat-is-free {
+    width: 24px;
+    height: 24px;
+    background: #ECF2FF;
+    border-radius: 4px; 
+    margin-right: 12px;
+} 
+
+.main-content .container .seat-nav .choisen-seat {
+    width: 24px;
+    height: 24px;
+    background: rgba(67, 208, 0, 1);
+    border-radius: 4px; 
+    margin-right: 12px;
+} 
+
+.main-content .container .seat-nav .nav-text {
+    margin-right: 72px;
+}

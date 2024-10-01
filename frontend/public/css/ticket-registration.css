@@ -1,0 +1,108 @@
+.main-content .ticket-registration {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 360px;
+    margin-top: var(--section-padding);
+    background-color: #5957DB;
+}
+
+.main-content .ticket-registration .ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content .ticket-registration .ticket .name {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 240px;
+    height: 60px;
+    margin-top: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #43D000;
+}
+
+.main-content .ticket-registration .ticket .info {
+    width: 240px;
+    height: 308px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #FFF;
+}
+
+.main-content .ticket-registration .ticket .name p {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+}
+
+.main-content .ticket-registration .ticket .info .markup {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.main-content .ticket-registration .ticket .info .markup .info-list  {
+    width: 50px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #AAAAAA;
+}
+
+.main-content .ticket-registration .ticket .info .markup .info-list-item {
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: #666666;
+}
+
+.main-content .ticket-registration .ticket .info .circle-1,
+.main-content .ticket-registration .ticket .info .circle-2 {
+    position: relative;
+    top: 78%;
+}
+
+.main-content .ticket-registration .ticket .info .circle-1::before {
+    content: '';
+    position: absolute;
+    left: -9px;
+    width: 16px;
+    height: 16px;
+    transform: translateY(-50%);
+    border-radius: 100%;
+    background-color: #5957DB;
+}
+
+.main-content .ticket-registration .ticket .info .circle-2::before {
+    content: '';
+    position: absolute;
+    right: -9px;
+    width: 16px;
+    height: 16px;
+    transform: translateY(-50%);
+    border-radius: 100%;
+    background-color: #5957DB;
+}
+
+.main-content .ticket-registration .ticket .info .separator{
+    margin-top: 28px;
+    width: 100%;
+    border-bottom: 4px dashed #ECF2FF
+}
+
+.main-content .ticket-registration .ticket .info .barcode {
+    margin-top: 24px;
+    margin-left: 30px;
+}

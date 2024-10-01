@@ -1,0 +1,33 @@
+.main-content .nav .nav-list .nav-list-item.active {
+    display: flex;
+    align-items: center;
+    width: 228px;
+    height: 62px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color: #ECF2FF;
+}
+
+.main-content .nav .nav-list .nav-list-item.active a {
+    color: #5957DB;
+}
+
+.main-content .nav .nav-list-item:nth-child(1).active a::before {
+    background-image: url("../img/icon/session.svg");
+}
+
+.main-content .nav .nav-list .nav-list-item:nth-child(2).active a::before {
+    background-image: url("../img/icon/atrailer.svg");
+}
+
+.main-content .nav .nav-list .nav-list-item:nth-child(3).active a::before {
+    background-image: url("../img/icon/anews.svg");
+}
+
+.main-content .nav .nav-list .nav-list-item:nth-child(4).active a::before {
+    background-image: url("../img/icon/aAbout-as.svg");
+}
+
+.main-content .nav .nav-list .nav-list-item:nth-child(5).active a::before {
+    background-image: url("../img/icon/acontact.svg");
+}

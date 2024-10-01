@@ -1,0 +1,9 @@
+:root {
+    --section-padding: 80px;
+    --section-button: 62px ;
+}
+
+* {
+    box-sizing: border-box;
+    /*border: 1px solid;*/
+}

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main-header.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/ticket-registration.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="./css/ticket-payment.css">
+    <link rel="stylesheet" href="./css/active.css">
+
+    <!-- Подключение шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header class="main-header">
+    <div class="container">
+        <a class="logo" href="#">
+            <img
+                    src="img/logo.svg"
+                    width="98"
+                    height="40"
+                    alt="logo"
+            >
+        </a>
+
+        <div class="breadcrumb-list">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Сеанс</a></li>
+                <li><a class="active" href="#">Кекс наносит ответный удар</a></li>
+            </ul>
+        </div>
+
+        <div class="select-wrapper">
+            <label for="sort"></label>
+            <select id="sort" name="" >
+                <option value="">Кинотеатр «На Карповке»</option>
+            </select>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="main-content">
+        <div class="container">
+            <aside class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item active">
+                        <a href="">Сеансы</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="">Трейлеры</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="">Новости</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="">О нас</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="">Контакты</a>
+                    </li>
+                </ul>
+
+                <ul class="user-menu">
+                    <li class="user-menu-item">
+                        <a href="">Аккаунт</a>
+                    </li>
+                </ul>
+            </aside>
+            <aside class="hall">
+                <div class="cinema-registration">
+                    <div class="arrows arrow-left">
+                        <a class="swipe-button" href="#">
+                            <img
+                                    src="./img/icon/main-arrow-left.svg"
+                                    width="15"
+                                    height="25"
+                                    alt=""
+                            >
+                        </a>
+                    </div>
+                    <ul class="choose-date">
+                        <li class="date-session">
+                            <ul>
+                                <li class="date-button">
+                                    <a class="mounth-num" href="#">22 сентября</a>
+                                    <a class="week-day" href="#">четверг</a>
+                                </li>
+                                <li class="date-button active">
+                                    <a class="mounth-num" href="#">23 сентября</a>
+                                    <a class="week-day" href="#">пятница</a>
+                                </li>
+                                <li class="date-button">
+                                    <a class="mounth-num" href="#">24 сентября</a>
+                                    <a class="week-day" href="#">суббота</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="arrows arrow-right">
+                        <a class="swipe-button" href="#">
+                            <img
+                                    src="./img/icon/main-arrow-right.svg"
+                                    width="15"
+                                    height="25"
+                                    alt=""
+                            >
+                        </a>
+                    </div>
+                </div>
+
+                <div class="time-registraition">
+                    <ul class="time-list">
+                        <li>
+                            <ul class="list-2d">
+                                <li class="film-category"><div>2D:</div></li>
+                                <li class="session-time">
+                                    <a href="#">12:00 - 13:30</a>
+                                </li>
+                                <li class="session-time">
+                                    <a href="#">16:30 - 18:00</a>
+                                </li>
+                                <li class="session-time active">
+                                    <a href="#">20:00 - 21:30</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="border-line">
+                            <img
+                                    src="./img/icon/border-line.svg"
+                                    alt=""
+                            >
+                        </li>
+                        <li>
+                            <ul class="list-3d">
+                                <li class="film-category">3D:</li>
+                                <li class="session-time">
+                                    <a href="#">10:00 - 11:30</a>
+                                </li>
+                                <li class="session-time">
+                                    <a href="#">23:00 - 00:30</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="hall-registration">
+                    <div class="cinema-screen">
+                        <img
+                                src="./img/icon/screen-ticket-registration.svg"
+                                alt=""
+                        >
+                        <div class="screen">экран</div>
+                    </div>
+
+                    <div class="cinema">
+                        <div class="finely">
+                            <div class="row-num">ряд <p id="num">1</p></div>
+                        </div>
+                        <div class="cinema-rows">
+                            <div class="row">
+                                <ul class="seats">
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">1</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">2</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">3</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">4</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">5</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cinema">
+                        <div class="finely">
+                            <div class="row-num">ряд <p id="num">2</p></div>
+                        </div>
+                        <div class="cinema-rows">
+                            <div class="row">
+                                <ul class="seats">
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">1</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">2</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">3</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">4</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">5</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">6</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">7</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">8</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">9</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cinema">
+                        <div class="finely">
+                            <div class="row-num">ряд <p id="num">3</p></div>
+                        </div>
+                        <div class="cinema-rows">
+                            <div class="row">
+                                <ul class="seats">
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">1</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">2</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">3</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">4</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">5</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">6</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">7</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">8</a>
+                                    </li>
+                                    <li class="seat free">
+                                        <img
+                                                src="./img/icon/free-seat.svg"
+                                                alt=""
+                                        >
+                                        <a class="num" href="">9</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="seat-nav">
+                        <div class="seat-reserved"></div>
+                        <div class="nav-text">Место занято</div>
+                        <div class="seat-is-free"></div>
+                        <div  class="nav-text">Место свободно</div>
+                        <div class="choisen-seat"></div>
+                        <div  class="nav-text">Выбранное место</div>
+                    </div>
+                </div>
+            </aside>
+
+            <aside class="payment">
+                <aside class="ticket-registration">
+                    <div class="ticket">
+                        <div class="name">
+                            <p>Билеты</p>
+                            <p>× 2</p>
+                        </div>
+
+                        <dl class="info">
+                            <div class="circle-1"></div>
+                            <div class="circle-2"></div>
+                            <div class="markup">
+                                <dt class="info-list">Фильм:</dt>
+                                <dd class="info-list-item">Кекс наносит ответный удар</dd>
+                            </div>
+
+                            <div class="markup">
+                                <dt class="info-list">Дата:</dt>
+                                <dd class="info-list-item">23 Сентября</dd>
+                            </div>
+
+                            <div class="markup">
+                                <dt class="info-list">Время:</dt>
+                                <dd class="info-list-item">22:00</dd>
+                            </div>
+
+                            <div class="markup">
+                                <dt class="info-list">Зал:</dt>
+                                <dd class="info-list-item">52</dd>
+                            </div>
+
+                            <div class="markup">
+                                <dt class="info-list">Ряд:</dt>
+                                <dd class="info-list-item">2</dd>
+                            </div>
+
+                            <div class="markup">
+                                <dt class="info-list">Места:</dt>
+                                <dd class="info-list-item">4,5</dd>
+                            </div>
+
+                            <div class="separator"></div>
+
+                            <div class="barcode">
+                                <img src="img/barcode.png" alt="barcode">
+                            </div>
+                        </dl>
+                    </div>
+
+                    <div class="ticket-payment">
+                        <h3>Оплата</h3>
+                        <div class="methods">
+                            <a class="sbp" href="@">
+                                <img
+                                    src="./img/sbp.png"
+                                    width="100px"
+                                    height="50px"
+                                    alt="spb"
+                                >
+                            </a>
+
+                            <a class="mir" href="@">
+                                <img
+                                    src="./img/mir-logo.svg"
+                                    width="100px"
+                                    height="50px"
+                                    alt="spb"
+                                >
+                            </a>
+                        </div>
+
+                        <button class="pay">Выбрать</button>
+                    </div>
+                </aside>
+            </aside>
+        </div>
+    </section>
+</main>
+
+<script src="bundle.js"></script>
+
+</body>
+</html>
